@@ -19,8 +19,9 @@ nav ul{
     display: inline;
 }
 nav ul li{
+    margin-top: 5px;
     display: inline-block;
-    padding-left: 30px;
+    padding-left: 100px;
     padding-right: 30px;
     color: white;
 }
@@ -28,34 +29,85 @@ a{
     text-decoration: none;
     color: white;
 }
-.btn{
+.btn-1 button{
     margin-top: 0px;
-    padding-top: 0px;
-    padding-right: 40px;
-    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background: transparent;
-    border-radius: 30%;
+    border: 3px solid grey;
+    border-radius: 100px;
 }
 .main{
     text-align: center;
 }
 h1{
-    color:aliceblue;
+    font-size: 50px;
+    color: white;
     padding-top: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     text-align: center;
 }
+
 p{
     color: grey;
     text-align: center;
 }
-.btn-2{
+.btn-2 button{
     margin-top: 30px;
-    background-color: rgb(110, 29, 110);
+    background: linear-gradient(45deg, blue, rgb(197, 84, 173) );
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
+    border: 3px solid purple;
+    border-radius: 100px;
+    cursor: pointer;
+}
 
+h2{
+    font-size: 30px;
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+.mid p{
+
+    padding-left: 40px;
+    text-align: left;
+}
+.row{
+    display: flex;
+   
+}
+.col-1{
+    flex: 1;
+    margin: 5px;
+    height: 300px;
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    border: 3px solid grey;
+    border-radius: 30px;
+
+
+}
+.col-1 img{
+    height: 140px;
+    width: 140px;
+    margin-top:  20px;
+    border-radius: 50%;
+}
+h4{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+.mid p{
+    padding-bottom: 40px;
 }
